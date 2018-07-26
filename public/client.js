@@ -1,8 +1,11 @@
-// client-side js
+// The logic for the client side
 //
+// @author: Ido Green | @greenido
+// @date: July 2018
+// @see https://greenido.wordpress.com/
 
 //
-//
+// Util function to log our output to the web page
 //
 function logToPage(str) {
   let targ = document.getElementById("simResults");
@@ -10,11 +13,11 @@ function logToPage(str) {
 }
 
 //
-//
+// The simulator logic
 //
 function runSim() {
   document.getElementById("simResults").value="";
-  let times = 100;
+  let times = 1000;
   // test the case where we keep our original choice
   //
   let correctGuess = 0;

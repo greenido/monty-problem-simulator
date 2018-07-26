@@ -1,6 +1,9 @@
-// server.js
-// where your node app starts
-
+// Main logic to run in NodeJS (when we don't need any UI)
+//
+// @author: Ido Green | @greenido
+// @date: July 2018
+// @see https://greenido.wordpress.com/
+//
 // init project
 var express = require('express');
 var app = express();
@@ -22,7 +25,7 @@ var listener = app.listen(process.env.PORT, function() {
 });
 
 //
-//
+// testing the simulator without GUI
 //
 function runSimulator(times) {
   
@@ -118,9 +121,9 @@ function runSimulator(times) {
   console.log("\n\n**** NOT Keeping your original guess ****");
   console.log("After " + times + " you got " + currect2 + " correct ones And " + inCorrect2 + " wrong guess");
   
-} // end runSimulator
+} // end 
 
 //
 //
-//
-runSimulator(20);
+// No need to run it by default only if we wish to use it without the UI
+//runSimulator(20);
