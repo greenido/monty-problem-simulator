@@ -3,11 +3,11 @@ The Monty Hall problem
 
 The Monty Hall problem is a brain teaser, in the form of a probability puzzle, loosely based on the American television game show Let's Make a Deal and named after its original host, Monty Hall.
 
+### [Live Demo Of The Simulator](https://monty-problem-simulator.glitch.me/)
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Monty_open_door.svg/220px-Monty_open_door.svg.png)
 
-[Live Demo Of The Simulator](https://monty-problem-simulator.glitch.me/)
-
-## Learn With A [Video](https://www.khanacademy.org/math/precalculus/prob-comb/dependent-events-precalc/v/monty-hall-problem)
+### Learn With A [Video](https://www.khanacademy.org/math/precalculus/prob-comb/dependent-events-precalc/v/monty-hall-problem)
 
 ## The Idea
 ------------
