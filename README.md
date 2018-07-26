@@ -1,6 +1,8 @@
 The Monty Hall problem
 ======================
 
+![](https://cdn.glitch.com/c6885165-72f6-41e1-a6bb-23d6eb5d289a%2Fcar.jpg?1532562796878)
+
 The Monty Hall problem is a brain teaser, in the form of a probability puzzle, loosely based on the American television game show Let's Make a Deal and named after its original host, Monty Hall.
 
 ### [Live Demo Of The Simulator](https://monty-problem-simulator.glitch.me/)
