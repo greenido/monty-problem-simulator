@@ -27,9 +27,15 @@
         The Monty Hall problem is a brain teaser, in the form of a probability puzzle, loosely based on the American television game show <b>Let's Make a Deal</b> and named after its original host, Monty Hall.        
       </p>
       <br>
-        <button id="simButton">Run The Simulation</button>    
+        <button id="simButton">Run The Simulation <span id="simTimes"></span> Times</button> 
+        
+      
+        <div class="slidecontainer">
+          <input type="range" min="1" max="1000000" value="1000" class="slider" id="simRange">
+          
+        </div>
       <br> 
-      <textarea readonly id="simResults" rows="5" cols="50" placeholder="Here you will see the simulation results"></textarea>
+      <textarea readonly id="simResults" rows="5" cols="90" placeholder="Here you will see the simulation results"></textarea>
     <br>    
       
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Xp6V_lO1ZKA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
